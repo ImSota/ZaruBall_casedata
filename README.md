@@ -25,7 +25,7 @@ ZaruBallは親指クラスタのみMXスイッチとChoc v2スイッチに対応
 
 プリントする3Dモデル：
 - right_choc_plate.obj (右手Chocスイッチ用トッププレート)
-- right_mx_plate.obj (右手MXスイッチ用ボトムプレート)
+- right_mx_plate.obj (右手MXスイッチ用トッププレート)
 - right_bottom_plate.obj (右手用ボトムプレート)
 - left_choc_plate.obj (左手Chocスイッチ用トッププレート)
 - left_mx_plate.obj (左手MXスイッチ用トッププレート)
