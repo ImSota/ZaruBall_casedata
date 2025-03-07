@@ -15,4 +15,6 @@ ZaruBallは現状サンドイッチマウントのみに対応しています。
 - 35mm_trachball_case.obj 
 
 ZaruBallでは独自のトラックボール基板を採用しています。keyballやroBa, moNaのトラックボールケースは使用できません。<br>
-トラックボールケースに2mmのセラミックボールを挿入してください。ドライバ―の裏側などで強く押し込むことで圧入できます。
+トラックボールケースに2mmのセラミックボールを挿入してください。ドライバ―の裏側などで強く押し込むことで圧入できます。<br>
+トラックボールケースはKeyball Trackball Case (Test)（https://www.thingiverse.com/thing:6749719）を改変して公開しています。<br>
+(© kepeo (クリエイティブ・コモンズ・ライセンス（表示4.0 国際）https://creativecommons.org/licenses/by/4.0/
