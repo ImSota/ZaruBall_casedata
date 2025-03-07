@@ -20,16 +20,18 @@ ZaruBallは親指クラスタのみMXスイッチとChoc v2スイッチに対応
 - left_bottomplate.obj (左手用ボトムプレート)
 
 ### 親指クラスタにChoc v2スイッチを使用するケース
+![chocv2_thumb_case](/image/chocthumb.png)
 データ保管先：
 [chocv2_thumb_sandwichcase](chocv2_thumb_sandwichcase)<br>
 
 プリントする3Dモデル：
 - right_choc_plate.obj (右手Chocスイッチ用トッププレート)
-- right_mx_plate.obj (右手MXスイッチ用トッププレート)
+- right_mx_plate.obj (右手MXスイッチ用トップ    プレート)
 - right_bottom_plate.obj (右手用ボトムプレート)
 - left_choc_plate.obj (左手Chocスイッチ用トッププレート)
 - left_mx_plate.obj (左手MXスイッチ用トッププレート)
 - left_bottom_plate.obj (左手用ボトムプレート)
+
 
 ## 34mm トラックボールケース
 - 34mm_trachball_case.obj 
