@@ -6,6 +6,7 @@ ZaruBallは現状サンドイッチマウントのみに対応しています。
 ## 2ピースケース
 2ピースケースは需要を鑑み、親指クラスタがchoc v2スイッチに対応したものを公開しています。<br>
 ![2P_case](/image/2Pcase.png)
+データ画保管先は[こちら](/case/2P_case)<br>
 3Dプリントするデータは以下の通りです。
 | 左右 | データ名 | 説明  |
 | ---- | ---- | ---- |
@@ -22,7 +23,7 @@ ZaruBallは現状サンドイッチマウントのみに対応しています。
 | 用意するパーツ | 点数 | 寸法 |
 | ---- | ---- | ---- |
 | ネオジム磁石 | 30個 | 直径2mm, 高さ2mmの円筒形 |
-| セラミックボール | 2個 |  直径2mm |
+| セラミックボール | 3個 |  直径2mm |
 | ゴム足 | 8個 | 直径10mm |
 
 ### 組み立て方法
@@ -61,7 +62,7 @@ ZaruBallは親指クラスタのみMXスイッチとChoc v2スイッチに対応
 
 ### 親指クラスタにMXスイッチを使用するケース
 データ保管先：
-[case/mx_thumb_sandwichcase](case/mx_thumb_sandwichcase)<br>
+[case/mx_thumb_sandwichcase](/case/mx_thumb_sandwichcase)<br>
 
 プリントする3Dモデル：
 - right_topplate.obj (右手用トッププレート)
@@ -72,7 +73,7 @@ ZaruBallは親指クラスタのみMXスイッチとChoc v2スイッチに対応
 ### 親指クラスタにChoc v2スイッチを使用するケース
 ![chocv2_thumb_case](/image/chocthumb.png)
 データ保管先：
-[chocv2_thumb_sandwichcase](chocv2_thumb_sandwichcase)<br>
+[chocv2_thumb_sandwichcase](case/chocv2_thumb_sandwichcase)<br>
 
 プリントする3Dモデル：
 - right_choc_plate.obj (右手Chocスイッチ用トッププレート)
