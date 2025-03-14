@@ -1,21 +1,25 @@
 # ZaruBall用3Dプリントデータ
-ZaruBallは現状サンドイッチマウントのみに対応しています。<br>
-~~2ピースケース、25mmボール用トラックボールケースを今後設計予定です。~~<br>
-2025/3/11 2ピースケースのデータを公開しました。
+ZaruBallのケース、トラックボールケース、ロータリーエンコーダー用ノブのstlファイルを公開しています。<br>
+ケースは需要を鑑み、親指クラスタがchoc v2スイッチに対応したものを公開しています。<br>
+全てMXスイッチのZaruBallを作成したい方は簡易的なサンドイッチプレートマウントのケースを使用してください。
 
-## 2ピースケース
-2ピースケースは需要を鑑み、親指クラスタがchoc v2スイッチに対応したものを公開しています。<br>
+トラックボールケースはKeyball Trackball Case (Test)（https://www.thingiverse.com/thing:6749719
+）を改変して公開しています。<br>
+© kepeo (クリエイティブ・コモンズ・ライセンス（表示4.0 国際）https://creativecommons.org/licenses/by/4.0/
+
 ![2P_case](/image/2Pcase.png)
-データ画保管先は[こちら](/case/2P_case)<br>
+
+## ケース
+データ画保管先は[こちら](/case/normal_case)<br>
 3Dプリントするデータは以下の通りです。
 | 左右 | データ名 | 説明  |
 | ---- | ---- | ---- |
-| 左 | L_top.stl | 左手のトップケース |
+| 左 | L_top.stl | 左手のトップケース |dd
 | 左 | L_bottom.stl | 左手のボトムケース |
 | 左 | knob.stl | ロータリーエンコーダにつけるノブ |
 | 右 | R_top.stl | 右手のトップケース |
 | 右 | R_bottom.stl | 右手のボトムケース |
-| 右 | 34mm_trackball_case_for2P.stl | マグネット固定対応34mmボールケース |
+| 右 | 34mm_trackball_case.stl | マグネット固定対応34mmボールケース |
 | 両方 | power_switch.stl | 電源スイッチカバー |
 | 両方 | reset_switch.stl | リセットスイッチ押下用ピン |
 
@@ -79,49 +83,52 @@ ZaruBallは現状サンドイッチマウントのみに対応しています。
     ![putting power switch cover](/image/power_switch_cover.jpg)
 10. トラックボール基板のマグネットコネクタをPCBと接続し、トラックボール基板の上からトラックボールケースをかぶせます。
     ![trackball connect](/image/trackball.jpg)
-11. すべてのスイッチとキーキャップ、トラックボールを取り付けます。
+11. すべてのスイッチとキーキャップ、トラックボール、ノブを取り付けます。
 12. マイコンのインジケータLEDの確認穴に2mmのアクリル丸棒を差し込むことで光が拡散し見やすくなります。
     ![insert acrylic rod](/image/acrylic_rod.jpg)
 </details>
 
 ## サンドイッチマウントケース
-ZaruBallは親指クラスタのみMXスイッチとChoc v2スイッチに対応、その他はMXスイッチの実に対応しています。親指クラスタにMXスイッチを用いる場合とChocスイッチを利用する場合で使用するプレートデータが異なります。<br>
 
+ZaruBallは親指クラスタのみMXスイッチとChoc v2スイッチに対応、その他はMXスイッチのみに対応しています。親指クラスタにMXスイッチを用いる場合とChocスイッチを利用する場合で使用するプレートデータが異なります。<br>
+
+<details>
+    <summary>詳細</summary>
+    
 ### サンドイッチマウントで共通する注意事項
 - トッププレートはマイコン部分のでっぱりを収めるように該当部分を少し薄くしてあります。
-そのため、キーキャップが乗る面がビルドプレートに面するように向きを変更してください。
-- プリントするパーツ以外にm2ねじ24本と7mmスペーサ12個が必要です。
+そのため、印刷時にキーキャップが乗る面がビルドプレートに面するように向きを変更してください。
+- プリントするパーツ以外にm2ねじ24本と7mmスペーサ12個が必要となります。
 
 ### 親指クラスタにMXスイッチを使用するケース
-データ保管先：
-[case/mx_thumb_sandwichcase](/case/mx_thumb_sandwichcase)<br>
-
-プリントする3Dモデル：
-- right_topplate.obj (右手用トッププレート)
-- right_bottomplate.obj (右手用ボトムプレート)
-- left_topplate.obj (左手用トッププレート)
-- left_bottomplate.obj (左手用ボトムプレート)
+データ画保管先は[こちら](/case/sandwich_case/mx_thumb_sandwichcase)<br>
+3Dプリントするデータは以下の通りです。
+| 左右 | データ名 | 説明  |
+| ---- | ---- | ---- |
+| 左 | left_topplate.obj | 左手用トッププレート |
+| 左 | left_bottomplate.obj | 左手用ボトムプレート |
+| 右 | right_topplate.obj | 右手用トッププレート |
+| 右 | right_bottomplate.obj | 右手用ボトムプレート |
 
 ### 親指クラスタにChoc v2スイッチを使用するケース
 ![chocv2_thumb_case](/image/chocthumb.png)
-データ保管先：
-[chocv2_thumb_sandwichcase](case/chocv2_thumb_sandwichcase)<br>
 
-プリントする3Dモデル：
-- right_choc_plate.obj (右手Chocスイッチ用トッププレート)
-- right_mx_plate.obj (右手MXスイッチ用トップ    プレート)
-- right_bottom_plate.obj (右手用ボトムプレート)
-- left_choc_plate.obj (左手Chocスイッチ用トッププレート)
-- left_mx_plate.obj (左手MXスイッチ用トッププレート)
-- left_bottom_plate.obj (左手用ボトムプレート)
+データ画保管先は[こちら](/case/sandwich_case/chocv2_thumb_sandwichcase)<br>
+3Dプリントするデータは以下の通りです。
+| 左右 | データ名 | 説明  |
+| ---- | ---- | ---- |
+| 左 | left_choc_plate.obj | 左手Chocスイッチ用トッププレート |
+| 左 | left_mx_plate.obj | 左手MXスイッチ用トッププレート |
+| 左 | left_bottom_plate.obj | 左手用ボトムプレート |
+| 右 | right_choc_plate.obj | 右手Chocスイッチ用トッププレート |
+| 右 | right_mx_plate.obj | 右手MXスイッチ用トッププレート |
+| 右 | right_bottom_plate.obj | 右手用ボトムプレート |
 
+### サンドイッチマウントケース用34mmトラックボールケース
+- 34mm_trachball_case_forsandwichcase.obj
 
-## 34mm トラックボールケース
-- 34mm_trachball_case.obj 
+トラックボールケースデータは[こちら](/case/sandwich_case/34mm_trackball_case_forsandwichcase.obj)から
 
 ZaruBallでは独自のトラックボール基板を採用しています。keyballやroBa, moNaのトラックボールケースは使用できません。<br>
 トラックボールケースに2mmのセラミックボールを挿入してください。ドライバ―の裏側などで強く押し込むことで圧入できます。<br>
-
-トラックボールケースはKeyball Trackball Case (Test)（https://www.thingiverse.com/thing:6749719
-）を改変して公開しています。<br>
-© kepeo (クリエイティブ・コモンズ・ライセンス（表示4.0 国際）https://creativecommons.org/licenses/by/4.0/
+</details>
