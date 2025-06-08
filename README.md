@@ -1,5 +1,7 @@
 # ZaruBall用3Dプリントデータ
 ZaruBallのケース、トラックボールケース、ロータリーエンコーダー用ノブのstlファイルを公開しています。<br>
+mainブランチのデータはZaruBall v3以降のケースデータです。
+v3より前のケースデータはversion1ブランチに保管してあります。
 
 ![main image](/image/main.jpg)
 
